@@ -18,6 +18,14 @@ public class ApplicationRole
    @OneToMany
    private List<AdminUser> users;
 
+   public ApplicationRole() {}
+
+   public ApplicationRole(int id, String name)
+   {
+      this.id = id;
+      this.roleName = name;
+   }
+
    public Integer getId()
    {
 

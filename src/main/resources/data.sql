@@ -1,1 +1,0 @@
-INSERT INTO application_roles VALUES ('Client Manager'), (' Product Manager'), ('Key Manager'), ('Administrator'), ('Super Admin');
